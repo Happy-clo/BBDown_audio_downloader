@@ -35,7 +35,7 @@ This application allows you to download audio from Bilibili videos. You can inpu
 
 ## Usage
 
-1. Run the application:
+1. Fill in your own ffmpeg address into the code then run the application:
 
    ```bash
    python app.py

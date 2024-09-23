@@ -16,7 +16,7 @@ def download_audio(video_links, quality_priority, download_path):
         if video_link:
             command = [
                 "BBDown",
-                f"--ffmpeg-path=D:\\ffmpeg\\ffmpeg-master-latest-win64-gpl\\ffmpeg-master-latest-win64-gpl\\bin\\ffmpeg.exe",
+                f"--ffmpeg-path=YOUR_FFMPEG_PATH",
                 f"--work-dir={download_path}",
                 f"--dfn-priority={quality_priority}",
                 video_link,
